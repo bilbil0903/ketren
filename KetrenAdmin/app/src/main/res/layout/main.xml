@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:background="#FF69A5BB">
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="كىنو يوللاش"
+		android:textColor="#FF000000"
+		android:onClick="yollax"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="ناخشا يوللاش"
+		android:textColor="#FF000000"
+		android:onClick="yollax2"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#FF000000"
+		android:text="كىنو باشقۇرۇش"
+		android:onClick="baxkurux"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="ئىلان باشقۇرۇش"
+		android:textColor="#FF000000"
+		android:onClick="ilan"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="سېتىشVIP"
+		android:textColor="#FF000000"
+		android:onClick="buy"/>
+
+</LinearLayout>
+

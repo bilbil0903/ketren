@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:fitsSystemWindows="true">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:background="#5138dc"
+		android:layout_width="match_parent"
+		android:layout_height="40dp">
+
+		<ImageButton
+			android:id="@+id/izdax"
+			android:background="@drawable/izdax"
+			android:layout_width="45dp"
+			android:layout_height="wrap_content"/>
+
+		<HorizontalScrollView
+			android:id="@+id/sc"
+			android:scrollbars="@null"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<RadioGroup
+				android:orientation="horizontal"
+				android:id="@+id/rg"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+				<RadioButton
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginLeft="8dp"
+					android:layout_marginRight="8dp"
+					android:button="@null"
+					android:text="تۈرلەر"
+					android:layout_weight="1.0"/>
+				
+				<RadioButton
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginLeft="8dp"
+					android:layout_marginRight="8dp"
+					android:button="@null"
+					android:text="ئ‍ونۋېرسال"
+					android:layout_weight="1.0"/>
+
+				<RadioButton
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginLeft="8dp"
+					android:layout_marginRight="8dp"
+					android:button="@null"
+					android:text="دەرىس"
+					android:layout_weight="1.0"/>
+
+				<RadioButton
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginLeft="8dp"
+					android:layout_marginRight="8dp"
+					android:button="@null"
+					android:text="MTV"
+					android:layout_weight="1.0"/>
+
+				<RadioButton
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginLeft="8dp"
+					android:layout_marginRight="8dp"
+					android:button="@null"
+					android:text="قىسىملىق"
+					android:layout_weight="1.0"/>
+
+				<RadioButton
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginLeft="8dp"
+					android:layout_marginRight="8dp"
+					android:button="@null"
+					android:text="كارتون"
+					android:layout_weight="1.0"/>
+
+				<RadioButton
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginLeft="8dp"
+					android:layout_marginRight="8dp"
+					android:button="@null"
+					android:text="كىنو"
+					android:layout_weight="1.0"/>
+				<RadioButton
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginLeft="8dp"
+					android:layout_marginRight="8dp"
+					android:button="@null"
+					android:text="تەۋسىيە"
+					android:layout_weight="1.0"/>
+				<RadioButton
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginLeft="8dp"
+					android:layout_marginRight="8dp"
+					android:button="@null"
+					android:text="ئاۋات"
+					android:layout_weight="1.0"/>
+
+				<RadioButton
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginLeft="8dp"
+					android:layout_marginRight="8dp"
+					android:button="@null"
+					android:text="يىڭى"
+					android:layout_weight="1.0"/>
+
+			</RadioGroup>
+
+		</HorizontalScrollView>
+
+	</LinearLayout>
+
+	<android.support.v4.view.ViewPager
+		android:id="@+id/viewpager"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+</LinearLayout>
+

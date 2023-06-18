@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="top|center">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:layout_width="75dp"
+				android:layout_height="100dp"
+				android:longClickable="false"
+				android:editable="false"
+				android:gravity="top|center"
+				android:orientation="vertical"
+				android:layout_marginRight="30dp">
+
+				<ImageButton
+					android:layout_width="match_parent"
+					android:layout_height="75dp"
+					android:clickable="false"
+					android:longClickable="false"
+					android:focusable="false"
+					android:editable="false"
+					android:background="@drawable/dianying"
+					android:id="@+id/kino"/>
+
+				<com.ketren.kino.UyTextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="كىنو"
+					android:textColor="#FF5138DC"
+					android:textSize="10sp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:layout_width="75dp"
+				android:layout_height="100dp"
+				android:longClickable="false"
+				android:editable="false"
+				android:gravity="top|center"
+				android:orientation="vertical">
+
+				<ImageButton
+					android:layout_width="match_parent"
+					android:layout_height="75dp"
+					android:clickable="false"
+					android:longClickable="false"
+					android:focusable="false"
+					android:editable="false"
+					android:background="@drawable/tv"
+					android:id="@+id/kisimlik"/>
+
+				<com.ketren.kino.UyTextView
+					android:textSize="10sp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="تېلېۋىزىيە-تىياتىرى"
+					android:textColor="#FF5138DC"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:layout_width="75dp"
+				android:layout_height="100dp"
+				android:longClickable="false"
+				android:editable="false"
+				android:gravity="top|center"
+				android:orientation="vertical"
+				android:layout_marginStart="30dp">
+
+				<ImageButton
+					android:layout_width="match_parent"
+					android:layout_height="75dp"
+					android:clickable="false"
+					android:longClickable="false"
+					android:focusable="false"
+					android:editable="false"
+					android:background="@drawable/dongman"
+					android:id="@+id/karton"/>
+
+				<com.ketren.kino.UyTextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="كارتون"
+					android:textColor="#FF5138DC"
+					android:textSize="10sp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:layout_width="75dp"
+				android:layout_height="100dp"
+				android:longClickable="false"
+				android:editable="false"
+				android:gravity="top|center"
+				android:orientation="vertical"
+				android:layout_marginRight="30dp">
+
+				<ImageButton
+					android:layout_width="match_parent"
+					android:layout_height="75dp"
+					android:clickable="false"
+					android:longClickable="false"
+					android:focusable="false"
+					android:editable="false"
+					android:background="@drawable/yinle"
+					android:id="@+id/nahxa"/>
+
+				<com.ketren.kino.UyTextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="ناخشا"
+					android:textColor="#FF5138DC"
+					android:textSize="10sp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:layout_width="75dp"
+				android:layout_height="100dp"
+				android:longClickable="false"
+				android:editable="false"
+				android:gravity="top|center"
+				android:orientation="vertical">
+
+				<ImageButton
+					android:layout_width="match_parent"
+					android:layout_height="75dp"
+					android:clickable="false"
+					android:longClickable="false"
+					android:focusable="false"
+					android:editable="false"
+					android:background="@drawable/vip_2"
+					android:id="@+id/vip"/>
+
+				<com.ketren.kino.UyTextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="ھەقلىق"
+					android:textColor="#FF5138DC"
+					android:textSize="10sp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:layout_width="75dp"
+				android:layout_height="100dp"
+				android:longClickable="false"
+				android:editable="false"
+				android:gravity="top|center"
+				android:orientation="vertical"
+				android:layout_marginStart="30dp">
+
+				<ImageButton
+					android:layout_width="match_parent"
+					android:layout_height="75dp"
+					android:clickable="false"
+					android:longClickable="false"
+					android:focusable="false"
+					android:editable="false"
+					android:background="@drawable/zonghe"
+					android:id="@+id/zonghe"/>
+
+				<com.ketren.kino.UyTextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="ئۇنىۋېرسال"
+					android:textColor="#FF5138DC"
+					android:textSize="10sp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:layout_width="75dp"
+				android:layout_height="100dp"
+				android:longClickable="false"
+				android:editable="false"
+				android:gravity="top|center"
+				android:orientation="vertical"
+				android:layout_marginRight="30dp">
+
+				<ImageButton
+					android:layout_width="match_parent"
+					android:layout_height="75dp"
+					android:clickable="false"
+					android:longClickable="false"
+					android:focusable="false"
+					android:editable="false"
+					android:background="@drawable/bilim"
+					android:id="@+id/daris"/>
+
+				<com.ketren.kino.UyTextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="دەرىس"
+					android:textColor="#FF5138DC"
+					android:textSize="10sp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:layout_width="75dp"
+				android:layout_height="100dp"
+				android:longClickable="false"
+				android:editable="false"
+				android:gravity="top|center"
+				android:orientation="vertical">
+
+				<ImageButton
+					android:layout_width="match_parent"
+					android:layout_height="75dp"
+					android:clickable="false"
+					android:longClickable="false"
+					android:focusable="false"
+					android:editable="false"
+					android:background="@drawable/kanal"
+					android:id="@+id/tv"/>
+
+				<com.ketren.kino.UyTextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="قانال"
+					android:textColor="#FF5138DC"
+					android:textSize="10sp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:layout_width="75dp"
+				android:layout_height="100dp"
+				android:longClickable="false"
+				android:editable="false"
+				android:gravity="top|center"
+				android:orientation="vertical"
+				android:layout_marginStart="30dp">
+
+				<ImageButton
+					android:layout_width="match_parent"
+					android:layout_height="75dp"
+					android:clickable="false"
+					android:longClickable="false"
+					android:focusable="false"
+					android:editable="false"
+					android:background="@drawable/mtv"
+					android:id="@+id/mtv"/>
+
+				<com.ketren.kino.UyTextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="MTV"
+					android:textSize="10sp"
+					android:textColor="#FF5138DC"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:gravity="right">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="right">
+
+			<LinearLayout
+				android:layout_width="75dp"
+				android:layout_height="100dp"
+				android:longClickable="false"
+				android:editable="false"
+				android:gravity="top|center"
+				android:orientation="vertical"
+				android:layout_marginRight="30dp">
+
+				<ImageButton
+					android:layout_width="match_parent"
+					android:layout_height="75dp"
+					android:clickable="false"
+					android:longClickable="false"
+					android:focusable="false"
+					android:editable="false"
+					android:background="@drawable/tur"
+					android:id="@+id/tur"/>
+
+				<com.ketren.kino.UyTextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="تۈرلەر"
+					android:textColor="#FF5138DC"
+					android:textSize="10sp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

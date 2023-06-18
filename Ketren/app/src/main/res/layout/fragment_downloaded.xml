@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/download_header"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.ketren.kino.UyTextView
+            android:id="@+id/download_summary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/download_manager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="15dp"
+            android:src="@drawable/list_icon_manager" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/download_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="never" />
+
+    <LinearLayout
+        android:id="@+id/download_footer"
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:background="@android:color/white"
+        android:gravity="top|center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.ketren.kino.UyTextView
+            android:id="@+id/download_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/list_icon_select"
+            android:gravity="center"
+            android:text="@string/label_select_all"
+            android:textSize="10sp" />
+
+        <com.ketren.kino.UyTextView
+            android:id="@+id/download_delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/list_icon_delete"
+            android:gravity="center"
+            android:text="@string/download_delete"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <com.ketren.kino.UyTextView
+        android:id="@+id/download_hint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/download_no_resources"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="16sp"
+        android:visibility="gone" />
+</LinearLayout>

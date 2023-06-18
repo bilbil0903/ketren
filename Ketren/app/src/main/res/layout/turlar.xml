@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:textColor="#FFDFDFDF">
+
+	<com.ketren.kino.UyTextView
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:text="تۈرلەر"
+		android:gravity="center"
+		android:background="#5138DC"
+		android:textColor="#FFFFFFFF"
+		android:id="@+id/title"
+		/>
+
+	<com.ketren.kino.Pull.PullToRefreshLayout
+		android:id="@+id/refresh_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<include
+			layout="@layout/refresh_head"/>
+
+		<com.ketren.kino.Pull.PullableScrollView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+				<LinearLayout
+					android:orientation="vertical"
+					android:gravity="right"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+					
+				<RadioGroup
+					android:orientation="horizontal"
+					android:layout_width="350px"
+					android:layout_height="wrap_content"
+					android:id="@+id/rg1"
+					/>
+
+				<RadioGroup
+					android:orientation="horizontal"
+					android:layout_width="350px"
+					android:layout_height="wrap_content"
+					android:id="@+id/rg2"
+					/>
+				</LinearLayout>
+				<RadioGroup
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/rg3"
+					android:gravity="right"/>
+
+				<RadioGroup
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/rg4"
+					android:gravity="right"/>
+				<RadioGroup
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/rg5"
+					android:gravity="right"/>
+				<ImageButton
+					android:layout_width="match_parent"
+					android:layout_height="80px"
+					android:background="@drawable/image_5"
+					android:layout_margin="4dp"
+					android:id="@+id/ilan"/>
+				<android.support.v7.widget.RecyclerView
+					android:id="@+id/recycler_view"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"/>
+			</LinearLayout>
+
+		</com.ketren.kino.Pull.PullableScrollView>
+
+		<include
+			layout="@layout/load_more"/>
+
+	</com.ketren.kino.Pull.PullToRefreshLayout>
+
+</LinearLayout>
+

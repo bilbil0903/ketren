@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:background="#FFFFFFFF">
+
+	<ImageView
+		android:layout_width="360px"
+		android:layout_height="360px"
+		android:clickable="true"
+		android:background="@drawable/gul_1"
+		android:onClick="gul"
+		android:id="@+id/gul"/>
+
+	<com.ketren.kino.UyTextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="كۈندە بىر كەترەن گۈلى يىغىشقا ۋە يىغقان ھەر بىر كەترەن گۈلىدە بىر كىنونى ھەقسىز كۆرۈشكە بولىدۇ.گۈلنى بېسىپ يىغىۋېلىڭ."
+		android:layout_marginTop="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp"
+		android:textColor="#FF000000"
+		android:textSize="10sp"/>
+
+</LinearLayout>
+

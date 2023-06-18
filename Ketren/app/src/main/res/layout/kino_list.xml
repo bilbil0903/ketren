@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:id="@+id/linearl"
+	android:clickable="true"
+	android:background="@drawable/linear_tag"
+	android:layout_margin="3dp">
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="3dp">
+
+		<ImageView
+			android:layout_marginLeft="7dp"
+			android:layout_marginRight="7dp"
+			android:id="@+id/image"
+			android:paddingTop="3dip"
+			android:layout_width="match_parent"
+			android:layout_height="148dp"
+			android:scaleType="fitXY"/>
+
+		<com.ketren.kino.UyTextView
+			android:id="@+id/vip"
+			android:layout_width="45dp"
+			android:layout_height="20dp"
+			android:textColor="#FFFEFFFF"
+			android:textSize="8sp"
+			android:gravity="center"
+			android:background="@drawable/ramka"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"/>
+
+		<com.ketren.kino.UyTextView
+			android:textSize="11sp"
+			android:id="@+id/text"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#000000"
+			android:gravity="left|right|center"
+			android:text="Nami"
+			android:layout_marginLeft="6dp"
+			android:layout_marginRight="6dp"
+			android:layout_marginTop="149dp"/>
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="right"
+		android:layout_gravity="right"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp">
+
+		<com.ketren.kino.UyTextView
+			android:textSize="8sp"
+			android:id="@+id/play"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FF000000"
+			android:gravity="right"
+			android:text="play"/>
+
+		<com.ketren.kino.UyTextView
+			android:textSize="8sp"
+			android:id="@+id/til"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FF000000"
+			android:gravity="right"
+			android:text="play"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="3dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
+

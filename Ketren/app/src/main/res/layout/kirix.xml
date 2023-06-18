@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:background="#FFFFFFFF">
+
+	<com.ketren.kino.UyEditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="ئ‍ىسىم"
+		android:lines="1"
+		android:id="@+id/isim"/>
+
+	<com.ketren.kino.UyEditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="پارول"
+		android:lines="1"
+		android:id="@+id/parol"
+		android:inputType="textWebPassword"/>
+
+	<com.ketren.kino.UyButton
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:text="كىرىش"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:textColor="#FFFFFFFF"
+		android:background="@drawable/taglik"
+		android:lines="1"
+		android:onClick="ok"/>
+
+	<com.ketren.kino.UyButton
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:text="يانفۇن نۇمىرىدا كىرىش"
+		android:clickable="true"
+		android:layout_marginBottom="100dp"
+		android:layout_marginTop="5dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:gravity="center"
+		android:textColor="#FFFFFF"
+		android:onClick="baxka"
+		android:background="@drawable/taglik"/>
+
+</LinearLayout>
+

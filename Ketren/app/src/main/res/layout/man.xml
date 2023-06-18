@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:layout_height="match_parent"
+	android:background="@drawable/ok">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<com.ketren.kino.Pull.PullToRefreshLayout
+			android:id="@+id/refresh_view"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<include
+				layout="@layout/refresh_head"/>
+
+			<com.ketren.kino.Pull.PullableScrollView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+		>
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:layout_width="match_parent"
+					android:orientation="vertical">
+
+					<LinearLayout
+						android:layout_height="200dp"
+						android:layout_width="match_parent"
+						android:orientation="vertical"
+						android:id="@+id/icon"
+						android:layout_margin="5dp">
+
+						<LinearLayout
+							android:layout_height="50dp"
+							android:layout_width="match_parent"
+							android:orientation="horizontal"
+							android:gravity="right">
+
+							<ImageButton
+								android:layout_gravity="center"
+								android:layout_height="35dp"
+								android:layout_width="35dp"
+								android:background="@drawable/ic_exit_to_app"
+								android:layout_marginRight="5dp"
+								android:id="@+id/exit"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="80dp"
+							android:layout_width="match_parent"
+							android:orientation="horizontal">
+
+							<com.ketren.kino.MyImageView
+								android:layout_height="60dp"
+								android:clickable="true"
+								android:layout_width="60dp"
+								android:background="@drawable/ic_launcher"
+								android:layout_marginLeft="10dp"
+								android:id="@+id/baxrasim"/>
+							
+							<LinearLayout
+								android:layout_height="match_parent"
+								android:layout_width="150dp"
+								android:orientation="vertical"
+								android:gravity="center"
+								android:layout_gravity="center"
+								android:layout_weight="0.010">
+
+								<com.ketren.kino.UyTextView
+									android:layout_height="wrap_content"
+									android:layout_width="wrap_content"
+									android:layout_gravity="bottom|left"
+									android:gravity="bottom|left"
+									android:textColor="#FFFFFDFD"
+									android:textSize="12sp"
+									android:layout_marginLeft="10dp"
+									android:id="@+id/tv2"/>
+								<LinearLayout
+									android:layout_height="wrap_content"
+									android:layout_width="match_parent"
+									android:id="@+id/tg"
+									android:orientation="horizontal">
+
+									<ImageView
+										android:layout_height="15dp"
+										android:layout_width="15dp"
+										android:background="@drawable/tagga"
+										android:layout_marginLeft="10dp"/>
+								<com.ketren.kino.UyTextView
+									android:layout_height="wrap_content"
+									android:layout_width="wrap_content"
+									android:textColor="#FFFFFDFD"
+									android:textSize="10sp"
+									android:text=""
+									android:layout_margin="3dp"
+									android:id="@+id/tagga"/>
+								</LinearLayout>
+							</LinearLayout>
+
+							<com.ketren.kino.UyTextView
+								android:layout_height="35dp"
+								android:layout_width="85dp"
+								android:orientation="horizontal"
+								android:gravity="center"
+								android:layout_gravity="center"
+								android:background="@drawable/blackground"
+								android:layout_marginRight="40dp"
+								android:textSize="12sp"
+								android:textColor="#FFFFFFFF"
+								android:id="@+id/phone"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_height="wrap_content"
+						android:layout_width="match_parent"
+						android:orientation="vertical"
+						android:layout_margin="10dp"
+						android:background="@drawable/taglik">
+
+						<LinearLayout
+							android:id="@+id/bat1"
+							android:layout_height="30dp"
+							android:layout_width="match_parent"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_marginLeft="10dp">
+
+							<LinearLayout
+								android:layout_height="match_parent"
+								android:layout_width="wrap_content"
+								android:orientation="horizontal"
+								android:layout_weight="1.0">
+
+								<ImageView
+									android:layout_gravity="center"
+									android:layout_height="match_parent"
+									android:layout_width="30dp"
+									android:src="@drawable/kursatkuq_left"/>
+
+							</LinearLayout>
+
+							<LinearLayout
+								android:layout_height="match_parent"
+								android:layout_width="wrap_content"
+								android:orientation="horizontal"
+								android:layout_weight="1.0"
+								android:gravity="right|center"
+								android:layout_gravity="center|end">
+
+								<LinearLayout
+									android:layout_height="match_parent"
+									android:layout_width="wrap_content"
+									android:orientation="horizontal"
+									android:gravity="center|end">
+
+									<com.ketren.kino.UyTextView
+										android:layout_height="match_parent"
+										android:layout_width="match_parent"
+										android:text="قۇيۇش خاتىرسى"
+										android:layout_marginRight="10dp"
+										android:id="@+id/see"
+										android:textSize="9sp"
+										android:gravity="center"
+										android:textColor="#FFFFFFFF"/>
+
+									<ImageView
+										android:layout_gravity="center"
+										android:layout_height="match_parent"
+										android:layout_width="25dp"
+										android:src="@drawable/play"/>
+
+								</LinearLayout>
+
+							</LinearLayout>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="30dp"
+							android:id="@+id/bat2"
+							android:layout_width="match_parent"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_marginLeft="10dp">
+
+							<LinearLayout
+								android:layout_height="match_parent"
+								android:layout_width="wrap_content"
+								android:orientation="horizontal"
+								android:layout_weight="1.0">
+
+								<ImageView
+									android:layout_gravity="center"
+									android:layout_height="match_parent"
+									android:layout_width="30dp"
+									android:src="@drawable/kursatkuq_left"/>
+
+							</LinearLayout>
+
+							<LinearLayout
+								android:layout_height="match_parent"
+								android:layout_width="wrap_content"
+								android:orientation="horizontal"
+								android:layout_weight="1.0"
+								android:gravity="right|center"
+								android:layout_gravity="center|end">
+
+								<LinearLayout
+									android:layout_height="match_parent"
+									android:layout_width="wrap_content"
+									android:orientation="horizontal"
+									android:gravity="center|end">
+
+									<com.ketren.kino.UyTextView
+										android:layout_height="match_parent"
+										android:layout_width="match_parent"
+										android:text="مىنىڭ چۈشۈرگىنىم"
+										android:gravity="center"
+										android:textSize="9sp"
+										android:id="@+id/download"
+										android:layout_marginRight="10dp"
+										android:textColor="#FFFFFFFF"/>
+
+									<ImageView
+										android:layout_gravity="center"
+										android:layout_height="match_parent"
+										android:layout_width="25dp"
+										android:src="@drawable/icon_download"/>
+
+								</LinearLayout>
+
+							</LinearLayout>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="30dp"
+							android:id="@+id/bat3"
+							android:layout_width="match_parent"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_marginLeft="10dp">
+
+							<LinearLayout
+								android:layout_height="match_parent"
+								android:layout_width="wrap_content"
+								android:orientation="horizontal"
+								android:layout_weight="1.0">
+
+								<ImageView
+									android:layout_gravity="center"
+									android:layout_height="match_parent"
+									android:layout_width="30dp"
+									android:src="@drawable/kursatkuq_left"/>
+
+							</LinearLayout>
+
+							<LinearLayout
+								android:layout_height="match_parent"
+								android:layout_width="wrap_content"
+								android:orientation="horizontal"
+								android:layout_weight="1.0"
+								android:gravity="right|center"
+								android:layout_gravity="center|end">
+
+								<LinearLayout
+									android:layout_height="match_parent"
+									android:layout_width="wrap_content"
+									android:orientation="horizontal"
+									android:gravity="center|end">
+
+									<com.ketren.kino.UyTextView
+										android:layout_height="match_parent"
+										android:layout_width="match_parent"
+										android:text="نەشىر يىڭىلاش"
+										android:gravity="center"
+										android:textSize="9sp"
+										android:id="@+id/naxir"
+										android:layout_marginRight="10dp"
+										android:textColor="#FFFFFFFF"/>
+
+									<ImageView
+										android:layout_gravity="center"
+										android:layout_height="match_parent"
+										android:layout_width="25dp"
+										android:src="@drawable/load_failed"/>
+
+								</LinearLayout>
+
+							</LinearLayout>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="30dp"
+							android:id="@+id/bat4"
+							android:layout_width="match_parent"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_marginLeft="10dp">
+
+							<LinearLayout
+								android:layout_height="match_parent"
+								android:layout_width="wrap_content"
+								android:orientation="horizontal"
+								android:layout_weight="1.0">
+
+								<ImageView
+									android:layout_gravity="center"
+									android:layout_height="match_parent"
+									android:layout_width="30dp"
+									android:src="@drawable/kursatkuq_left"/>
+
+							</LinearLayout>
+
+							<LinearLayout
+								android:layout_height="match_parent"
+								android:layout_width="wrap_content"
+								android:orientation="horizontal"
+								android:layout_weight="1.0"
+								android:gravity="right|center"
+								android:layout_gravity="center|end">
+
+								<LinearLayout
+									android:layout_height="match_parent"
+									android:layout_width="wrap_content"
+									android:orientation="horizontal"
+									android:gravity="center|end">
+
+									<com.ketren.kino.UyTextView
+										android:layout_height="match_parent"
+										android:layout_width="match_parent"
+										android:text="ئ‍ەپ ھەققىدە"
+										android:gravity="center"
+										android:textSize="9sp"
+										android:id="@+id/naxir"
+										android:layout_marginRight="10dp"
+										android:textColor="#FFFFFFFF"/>
+
+									<ImageView
+										android:layout_gravity="center"
+										android:layout_height="match_parent"
+										android:layout_width="25dp"
+										android:src="@drawable/ic_bookmark_outline"/>
+
+								</LinearLayout>
+
+							</LinearLayout>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="30dp"
+							android:id="@+id/bat5"
+							android:layout_width="match_parent"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp"
+							android:visibility="gone"
+							android:layout_marginRight="10dp"
+							android:layout_marginLeft="10dp">
+
+							<LinearLayout
+								android:layout_height="match_parent"
+								android:layout_width="wrap_content"
+								android:orientation="horizontal"
+								android:layout_weight="1.0">
+
+								<ImageView
+									android:layout_gravity="center"
+									android:layout_height="match_parent"
+									android:layout_width="30dp"
+									android:src="@drawable/kursatkuq_left"/>
+
+							</LinearLayout>
+
+							<LinearLayout
+								android:layout_height="match_parent"
+								android:layout_width="wrap_content"
+								android:orientation="horizontal"
+								android:layout_weight="1.0"
+								android:gravity="right|center"
+								android:layout_gravity="center|end">
+
+								<LinearLayout
+									android:layout_height="match_parent"
+									android:layout_width="wrap_content"
+									android:orientation="horizontal"
+									android:gravity="center|end">
+
+									<com.ketren.kino.UyTextView
+										android:layout_height="match_parent"
+										android:layout_width="match_parent"
+										android:text="ئ‍ەپنى ھەمبەھىرلەش"
+										android:gravity="center"
+										android:textSize="9sp"
+										android:layout_marginRight="10dp"
+										android:textColor="#FFFFFFFF"/>
+
+									<ImageView
+										android:layout_gravity="center"
+										android:layout_height="match_parent"
+										android:layout_width="25dp"
+										android:src="@drawable/ic_share_variant_outline"/>
+
+								</LinearLayout>
+
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:layout_height="30dp"
+							android:id="@+id/bat7"
+							android:layout_width="match_parent"
+							android:visibility="gone"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_marginLeft="10dp">
+
+							<LinearLayout
+								android:layout_height="match_parent"
+								android:layout_width="wrap_content"
+								android:orientation="horizontal"
+								android:layout_weight="1.0">
+
+								<ImageView
+									android:layout_gravity="center"
+									android:layout_height="match_parent"
+									android:layout_width="30dp"
+									android:src="@drawable/kursatkuq_left"/>
+
+							</LinearLayout>
+
+							<LinearLayout
+								android:layout_height="match_parent"
+								android:layout_width="wrap_content"
+								android:orientation="horizontal"
+								android:layout_weight="1.0"
+								android:gravity="right|center"
+								android:layout_gravity="center|end">
+
+								<LinearLayout
+									android:layout_height="match_parent"
+									android:layout_width="wrap_content"
+									android:orientation="horizontal"
+									android:gravity="center|end">
+
+									<com.ketren.kino.UyTextView
+										android:layout_height="match_parent"
+										android:layout_width="match_parent"
+										android:text="VIP سېتىۋېلىش"
+										android:gravity="center"
+										android:textSize="9sp"
+										android:layout_marginRight="10dp"
+										android:textColor="#FFFFFFFF"/>
+
+									<ImageView
+										android:layout_gravity="center"
+										android:layout_height="match_parent"
+										android:layout_width="25dp"
+										android:src="@drawable/vip"/>
+
+								</LinearLayout>
+
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:layout_height="30dp"
+							android:id="@+id/bat8"
+							android:layout_width="match_parent"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_marginLeft="10dp">
+
+							<LinearLayout
+								android:layout_height="match_parent"
+								android:layout_width="wrap_content"
+								android:orientation="horizontal"
+								android:layout_weight="1.0">
+
+								<ImageView
+									android:layout_gravity="center"
+									android:layout_height="match_parent"
+									android:layout_width="30dp"
+									android:src="@drawable/kursatkuq_left"/>
+
+							</LinearLayout>
+
+							<LinearLayout
+								android:layout_height="match_parent"
+								android:layout_width="wrap_content"
+								android:orientation="horizontal"
+								android:layout_weight="1.0"
+								android:gravity="right|center"
+								android:layout_gravity="center|end">
+
+								<LinearLayout
+									android:layout_height="match_parent"
+									android:layout_width="wrap_content"
+									android:orientation="horizontal"
+									android:gravity="center|end">
+
+									<com.ketren.kino.UyTextView
+										android:layout_height="match_parent"
+										android:layout_width="match_parent"
+										android:text="ھەقسىز كىنو كۆرۈش"
+										android:gravity="center"
+										android:textSize="9sp"
+										android:layout_marginRight="10dp"
+										android:textColor="#FFFFFFFF"/>
+
+									<ImageView
+										android:layout_gravity="center"
+										android:layout_height="match_parent"
+										android:layout_width="25dp"
+										android:src="@drawable/ic_flower_poppy"/>
+
+								</LinearLayout>
+
+							</LinearLayout>
+						</LinearLayout>
+						
+
+							
+						
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_height="45dp"
+						android:layout_width="match_parent"
+						android:orientation="horizontal"
+						android:layout_marginTop="10dp"
+						android:gravity="right"
+						android:layout_gravity="center"
+						android:layout_marginLeft="10dp"
+						android:layout_marginRight="10dp"
+						android:background="@drawable/taglik">
+
+						<TextView
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:text="官方群：① 870566791\n官方群：②663676708"
+							android:textColor="#FFFFFFFF"
+							android:textSize="9sp"
+							android:gravity="left|center"
+							android:layout_margin="3dp"/>
+
+					</LinearLayout>
+
+                
+				</LinearLayout>
+
+			</com.ketren.kino.Pull.PullableScrollView>
+
+			<include
+				layout="@layout/load_more"/>
+
+		</com.ketren.kino.Pull.PullToRefreshLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

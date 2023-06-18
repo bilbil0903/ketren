@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#FFF9F9F9"
+	android:layout_gravity="center"
+	android:fitsSystemWindows="true">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:orientation="horizontal"
+		android:id="@+id/group"
+		android:background="#FF5138DC"
+		android:gravity="center">
+
+		<ImageButton
+			android:layout_width="35dp"
+			android:layout_height="35dp"
+			android:layout_alignParentLeft="true"
+			android:layout_centerHorizontal="true"
+			android:background="@drawable/ic_return_back"
+			android:onClick="back"/>
+
+		<com.ketren.kino.UyTextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="چۈشۈرۈش مەركىزى"
+			android:layout_centerInParent="true"
+			android:textColor="#FFFFFFFF"
+			android:textSize="11sp"/>
+
+		<ImageButton
+			android:layout_width="35dp"
+			android:layout_height="35dp"
+			android:layout_alignParentRight="true"
+			android:layout_centerHorizontal="true"
+			android:background="@drawable/ic_plus_thick"
+			android:onClick="add"/>
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:orientation="horizontal"
+		android:id="@+id/group">
+
+		<com.ketren.kino.UyTextView
+			android:text="چۈشۈرلىۋاتقىنى"
+			android:textSize="13sp"
+			android:gravity="center"
+			android:layout_weight="1"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:textColor="#000000"
+			android:onClick="t1"
+			android:background="#FFFFFFFF"
+			android:layout_margin="3dp"
+			android:id="@+id/t1"/>
+
+		<View
+			android:layout_width="3dp"
+			android:layout_height="match_parent"
+			android:background="#FFE7E9E9"/>
+
+		<com.ketren.kino.UyTextView
+			android:id="@+id/t2"
+			android:text="چۈشۈرۈلگىنى"
+			android:gravity="center"
+			android:textSize="13sp"
+			android:layout_weight="1"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:textColor="#000000"
+			android:onClick="t2"
+			android:background="#FFFFFFFF"
+			android:layout_margin="3dp"/>
+
+	</LinearLayout>
+
+	<android.support.v4.view.ViewPager
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/viewpager"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Button"/>
+
+</LinearLayout>
+

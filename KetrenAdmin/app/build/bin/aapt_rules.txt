@@ -1,0 +1,55 @@
+# view AndroidManifest.xml #generated:47
+-keep class com.ketren.admin.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.ketren.admin.buy { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.ketren.admin.ilanbaxkurux { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.ketren.admin.kinobaxkuruxBat { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class com.ketren.admin.kinobaxkuruxIzdax { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.ketren.admin.kinoyollax { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.ketren.admin.login { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+# view AndroidManifest.xml #generated:63
+-keep class com.ketren.admin.nahxayollax { <init>(...); }
+
+# onClick res/layout/main.xml #generated:24
+-keepclassmembers class * { *** baxkurux(...); }
+
+# onClick res/layout/main.xml #generated:38
+-keepclassmembers class * { *** buy(...); }
+
+# onClick res/layout/kinobaxkuruxbat.xml #generated:62
+-keepclassmembers class * { *** delete(...); }
+
+# onClick res/layout/main.xml #generated:31
+-keepclassmembers class * { *** ilan(...); }
+
+# onClick res/layout/kinobaxkuruxizdax.xml #generated:13
+-keepclassmembers class * { *** izdax(...); }
+
+# onClick res/layout/buy.xml #generated:22
+-keepclassmembers class * { *** ok(...); }
+
+# onClick res/layout/ilanbaxkurux.xml #generated:84
+# onClick res/layout/kinobaxkuruxbat.xml #generated:55
+-keepclassmembers class * { *** save(...); }
+
+# onClick res/layout/kinoyollax.xml #generated:90
+# onClick res/layout/main.xml #generated:10
+# onClick res/layout/nahxayollax.xml #generated:27
+-keepclassmembers class * { *** yollax(...); }
+
+# onClick res/layout/main.xml #generated:17
+-keepclassmembers class * { *** yollax2(...); }
+

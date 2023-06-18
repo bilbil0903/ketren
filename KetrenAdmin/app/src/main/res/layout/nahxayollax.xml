@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/nahxa"
+		android:hint="ناخشا"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/nahxiqi"
+		android:hint="ناخشىچى"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/adiris"
+		android:hint="ئادىرىس"
+		android:text="http://music.163.com/song/media/outer/url?id=***.mp3"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="يوللاش"
+		android:layout_margin="34dp"
+		android:onClick="yollax"/>
+
+</LinearLayout>
+

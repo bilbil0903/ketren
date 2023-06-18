@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#FFEDEDED">
+
+	<com.ketren.kino.UyTextView
+		android:layout_width="match_parent"
+		android:layout_height="70dp"
+		android:text="ئىزدەش"
+		android:gravity="center"
+		android:background="#4242D4"
+		android:textColor="#FFFFFF"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_marginTop="3dp">
+
+		<ImageButton
+			android:layout_width="30dp"
+			android:layout_height="30dp"
+			android:background="@drawable/ic_yeast"
+			android:onClick="izdax"
+			android:layout_margin="3dp"/>
+
+		<AutoCompleteTextView
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			android:id="@+id/izdax"
+			android:hint="كىنو نامىنى كىرگۈزۈڭ"
+			android:textSize="11sp"
+			android:background="@drawable/izdax_ramka"
+			android:padding="5dp"
+			android:layout_margin="3dp"
+			android:inputType="textShortMessage"/>
+
+	</LinearLayout>
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/recycler_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+</LinearLayout>
+

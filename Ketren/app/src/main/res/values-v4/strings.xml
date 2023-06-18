@@ -1,0 +1,37 @@
+<resources>
+    <string name="label_download">چۈشۈرۈش</string>
+    <string name="label_select_all">ھەممىنى تاللاش</string>
+    <string name="label_select_none">تاللىماسلىق</string>
+    <string name="title_download">چۈشۈرۈش مەركىزى</string>
+    <string name="download_retry">قايتىلاش</string>
+    <string name="download_pause">توختىتىش</string>
+    <string name="download_resume">داۋاملىق</string>
+    <string name="download_finish">چۈشۈرۈلدى</string>
+    <string name="download_wait">ساقلاۋاتىدۇ</string>
+    <string name="download_unknown">نامەلۇم</string>
+
+    <string name="download_clear">تازلاش</string>
+    <string name="download_delete">ئۆچۈرۈش</string>
+    <string name="download_edit">تەھرىرلەش</string>
+    <string name="download_done">چۈشۈرۈلدى</string>
+    <string name="download_clear_task_waring">بارلىق ۋەزىپىلەرنى قۇرۇقدامسىز؟</string>
+    <string name="download_remove_task_waring">ئۆچۈرەمسىز؟</string>
+    <string name="download_delete_waring">چۈشۈرلۈپ بولغان فىلىمنى يۇيامسىز؟</string>
+    <string name="download_cancel">ياق</string>
+    <string name="download_no_tasks">ھېچنىمە چۈشۈرۈلمىگەن…</string>
+    <string name="download_no_resources">ھېچنىمە يوق</string>
+    <string name="download_select_waring">تاللاڭ</string>
+    <string name="download_title_downloading">چۈشۈرلىۋاتىدۇ</string>
+    <string name="download_title_downloaded">چۈشۈرۈلگىنى</string>
+    <string name="download_summary">%dدانە كىنو</string>
+    <string name="download_date_format">\nMئاينىڭdكۈنى</string>
+    <string name="download_pause_all">ھەممىنى توختىتىش</string>
+    <string name="download_start_all">ھەممىنى باشلاش</string>
+	<string-array name="media_quality">
+        <item>流畅</item>
+        <item>清晰</item>
+        <item>高清</item>
+        <item>超清</item>
+        <item>1080P</item>
+    </string-array>
+</resources>

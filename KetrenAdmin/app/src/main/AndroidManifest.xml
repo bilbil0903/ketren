@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ketren.admin">
+
+    <!-- å®å¨çç½ç»è®¿é®æé -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:resizeableActivity="true">
+
+        <activity
+            android:name=".login"
+            android:label="@string/app_name">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name="kinoyollax"/>
+
+        <activity android:name="kinobaxkuruxIzdax"/>
+
+        <activity android:name="kinobaxkuruxBat"/>
+		<activity android:name="MainActivity"/>
+        <activity android:name="ilanbaxkurux"/>
+		<activity android:name="buy"/>
+		<activity android:name="nahxayollax"/>
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="4.0"/>
+
+		<activity android:name="com.ketren.admin.nahxayollax" />
+
+    </application>
+
+</manifest>

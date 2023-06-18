@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:background="@drawable/qambar3">
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+
+		<com.ketren.kino.UyTextView
+			android:layout_height="match_parent"
+			android:text="mazmun"
+			android:layout_width="match_parent"
+			android:textColor="#FFFFFF"
+			android:id="@+id/mazmun"
+			android:gravity="right"
+			android:textSize="13sp"
+			android:padding="10dp"/>
+
+	</ScrollView>
+
+	<com.ketren.kino.UyButton
+		android:layout_height="45dp"
+		android:layout_width="match_parent"
+		android:text="بىلدىم"
+		android:textSize="16sp"
+		android:gravity="center"
+		android:id="@+id/bb"
+		android:onClick="a"
+		android:textColor="#FCFCFC"
+		android:layout_margin="20dp"
+		android:background="@drawable/qambar"/>
+
+</LinearLayout>
+

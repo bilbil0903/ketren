@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top|center"
+	android:orientation="vertical"
+	android:background="#EBEBEB">
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<Spinner
+				android:layout_height="40dp"
+				android:layout_width="match_parent"
+				android:id="@+id/kinoturi"/>
+
+			<Spinner
+				android:layout_height="40dp"
+				android:layout_width="match_parent"
+				android:id="@+id/tur1"
+				android:layout_marginTop="5dp"/>
+
+			<Spinner
+				android:layout_height="40dp"
+				android:layout_width="match_parent"
+				android:id="@+id/tur2"
+				android:layout_marginTop="5dp"/>
+
+			<Spinner
+				android:layout_height="40dp"
+				android:layout_width="match_parent"
+				android:id="@+id/vip"
+				android:layout_marginTop="5dp"/>
+
+			<Spinner
+				android:layout_height="40dp"
+				android:layout_width="match_parent"
+				android:id="@+id/time"
+				android:layout_marginTop="5dp"/>
+
+			<Spinner
+				android:layout_height="40dp"
+				android:layout_width="match_parent"
+				android:id="@+id/til"
+				android:layout_marginTop="5dp"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:lines="2"
+				android:textColor="#000000"
+				android:hint="كىنو نامى"
+				android:textSize="13sp"
+				android:id="@+id/nami"
+				android:layout_marginTop="5dp"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:lines="2"
+				android:textColor="#000000"
+				android:hint="كىنو ئادىرىسى"
+				android:textSize="13sp"
+				android:id="@+id/adiris"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:lines="2"
+				android:textColor="#000000"
+				android:hint="رەسىم ئادىرىسى"
+				android:textSize="13sp"
+				android:id="@+id/rasim"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:lines="2"
+				android:textColor="#000000"
+				android:hint="چۈشەندۈرۈلىشى"
+				android:textSize="13sp"
+				android:id="@+id/jieshao"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="يوللاش"
+				android:background="#4D41D1"
+				android:textColor="#FFFFFF"
+				android:onClick="yollax"
+				android:id="@+id/b1"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

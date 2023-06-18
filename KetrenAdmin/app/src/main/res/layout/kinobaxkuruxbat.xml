@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="كىنو نامى…"
+		android:id="@+id/name"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="120dp"
+		android:hint="كىنو ئادىرىسى"
+		android:id="@+id/adiris"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="كىنو كەسمە رەسىمى"
+		android:id="@+id/kasma"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="كىنو تىلى"
+		android:id="@+id/til"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="كىنو تۈرى"
+		android:id="@+id/tur"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="كىنو چۈشەندۈرۈلىشى"
+		android:id="@+id/jieshao"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Vip"
+		android:id="@+id/vip"/>
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="nadir(0/1)"
+		android:id="@+id/nadir"/>
+	
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="44dp"
+		android:text="ساقلاش"
+		android:layout_marginTop="10dp"
+		android:onClick="save"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="44dp"
+		android:text="ئ‍ۆچۈرۈش"
+		android:layout_marginTop="10dp"
+		android:onClick="delete"
+		android:background="#FFF42E2E"
+		android:textColor="#FFFFFFFF"/>
+
+</LinearLayout>
+

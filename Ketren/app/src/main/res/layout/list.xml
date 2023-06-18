@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="36dp"
+	android:layout_width="46dp"
+	android:orientation="horizontal"
+	android:background="@drawable/qambar"
+	android:layout_margin="3dp"
+	android:id="@+id/layout">
+
+	<com.ketren.kino.UyTextView
+		android:layout_height="36dp"
+		android:layout_width="46dp"
+		android:id="@+id/kisim"
+		android:gravity="center"
+		android:textColor="#FFFFFFFF"
+		android:textSize="10sp"
+		/>
+
+</LinearLayout>
+

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="top|center"
+	android:id="@+id/linearl"
+	android:clickable="true"
+	android:background="#ffffffff"
+	android:layout_margin="3dp"
+	android:layout_gravity="top|center">
+
+	<com.ketren.kino.UyTextView
+		android:textSize="15sp"
+		android:id="@+id/nahxa"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#FF6F6F6F"
+		android:gravity="left|right|center"
+		android:text=""
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="3dp"/>
+
+	<RelativeLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp">
+
+		<com.ketren.kino.UyTextView
+			android:textSize="10sp"
+			android:id="@+id/nahxiqi"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#949494"
+			android:text=""
+			android:layout_marginLeft="40dp"/>
+
+		<com.ketren.kino.UyTextView
+			android:textSize="10sp"
+			android:id="@+id/see"
+			android:layout_marginBottom="30px"
+			android:layout_centerVertical="true"
+			android:layout_alignParentLeft="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#949494"
+			android:text=""/>
+
+	</RelativeLayout>
+
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:orientation="vertical"
+		android:id="@+id/koyguq"
+		android:visibility="gone">
+		<RelativeLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:id="@+id/loading"
+		>
+
+			<ProgressBar
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"/>
+
+			<com.ketren.kino.UyTextView
+				android:textSize="10sp"
+				android:layout_marginBottom="15px"
+				android:layout_centerVertical="true"
+				android:layout_alignParentLeft="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#FF626CDC"
+				android:text="يۈكلىنىۋاتىدۇ..."/>
+
+		</RelativeLayout>
+		<LinearLayout
+			android:id="@+id/koy"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:orientation="vertical"
+			android:layout_marginBottom="10px"
+			android:visibility="gone">
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:layout_marginBottom="10px"
+		>
+
+			<com.ketren.kino.UyTextView
+				android:textSize="10sp"
+				android:id="@+id/omumi"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#949494"
+				android:text="0:0"
+				android:layout_marginLeft="40dp"
+				android:layout_alignParentRight="true"/>
+
+			<com.ketren.kino.UyTextView
+				android:textSize="10sp"
+				android:id="@+id/hazirki"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#949494"
+				android:text="0:0"/>
+
+			<SeekBar
+				android:textSize="10sp"
+				android:id="@+id/seekbar"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textColor="#949494"
+				android:layout_centerHorizontal="true"
+				android:layout_marginRight="30dp"
+				android:layout_marginLeft="30dp"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp">
+
+			<ImageButton
+				android:textSize="10sp"
+				android:id="@+id/next"
+				android:layout_width="120px"
+				android:layout_height="120px"
+				android:layout_marginLeft="40dp"
+				android:background="@drawable/next"
+				android:layout_alignParentRight="true"/>
+
+			<ImageButton
+				android:textSize="10sp"
+				android:id="@+id/last"
+				android:layout_width="120px"
+				android:background="@drawable/last"
+				android:layout_height="120px"/>
+
+			<ImageButton
+				android:textSize="10sp"
+				android:id="@+id/pauseandstart"
+				android:layout_width="120px"
+				android:background="@drawable/tohta"
+				android:layout_height="120px"
+				android:layout_centerHorizontal="true"/>
+
+		</RelativeLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>
+
+

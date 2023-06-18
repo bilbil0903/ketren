@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="ئىلان1"
+		android:background="#FF2A24B3"
+		android:textColor="#FFFFF8F8"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="ئىلان1 رەسىمى"
+		android:id="@+id/i11"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="ئىلان1ئادىرىسى"
+		android:id="@+id/i1"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="ئىلان2"
+		android:background="#FF0A901D"
+		android:textColor="#FFFFFEFE"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="ئىلان2رەسىمى"
+		android:id="@+id/i22"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="ئىلان2ئادىرىسى"
+		android:id="@+id/i2"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="ئىلان3"
+		android:background="#FFC242CB"
+		android:textColor="#FFFFFFFF"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="ئىلان3رەسىمى"
+		android:id="@+id/i33"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="ئىلان3ئادىرىسى"
+		android:id="@+id/i3"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="ئىلان 4"
+		android:textColor="#FFFFFFFF"
+		android:background="#FFB23F3F"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="ئىلان4رەسىمى"
+		android:id="@+id/i44"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="ئىلان4 رەسىمى"
+		android:id="@+id/i4"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="ساقلاش"
+		android:onClick="save"/>
+
+</LinearLayout>
+

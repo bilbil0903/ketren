@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ketren</string>
+   <string name="video_record">كەلگەن يەر</string>
+    <string name="video_skip">داۋاملىق قويۇش</string>
+
+    <string-array name="media_quality">
+        <item>راۋان</item>
+        <item>ئ‍ەڭ راۋان</item>
+        <item>يۇقىرى ئ‍ىنىقلىق</item>
+        <item>ئ‍ەڭ يۇقىرى ئ‍ىنىقلىق</item>
+        <item>1080P</item>
+    </string-array>
+    
+</resources>

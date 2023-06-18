@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:layout_gravity="center">
+
+	<LinearLayout
+		android:id="@+id/ll_user"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="16dp"
+		android:paddingRight="16dp">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:gravity="center">
+
+			<com.ketren.kino.UyEditText
+				android:id="@+id/et_number"
+				android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:layout_weight="3"
+				android:hint="يانفۇن نۇمۇرى"
+				android:textSize="12sp"/>
+
+			<com.ketren.kino.UyTextView
+				android:id="@+id/tv_getCheckCode"
+				android:layout_width="60dp"
+				android:layout_height="40dp"
+				android:layout_weight="1"
+				android:background="@drawable/taglik"
+				android:gravity="center_horizontal|center_vertical"
+				android:onClick="b1"
+				android:text="ئىرىشىش"
+				android:textColor="#ffffff"
+				android:textSize="13sp"
+				android:layout_marginLeft="3dp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<com.ketren.kino.UyTextView
+		android:id="@+id/tv_sendCheckCode"
+		android:layout_width="match_parent"
+		android:layout_height="45dp"
+		android:layout_weight="2"
+		android:text="كىرىش"
+		android:clickable="true"
+		android:layout_marginBottom="100dp"
+		android:layout_marginTop="100dp"
+		android:layout_marginLeft="25dp"
+		android:layout_marginRight="25dp"
+		android:gravity="center"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/taglik"/>
+
+	<com.ketren.kino.UyButton
+		android:layout_width="match_parent"
+		android:layout_height="45dp"
+		android:layout_weight="2"
+		android:text="ئ‍ەزالىق نامىدا كىرىش"
+		android:clickable="true"
+		android:layout_marginBottom="100dp"
+		android:layout_marginTop="150dp"
+		android:layout_marginLeft="25dp"
+		android:layout_marginRight="25dp"
+		android:gravity="center"
+		android:textColor="#FFFFFF"
+		android:onClick="baxka"
+		android:background="@drawable/taglik"/>
+
+	<LinearLayout
+		android:id="@+id/ll_pass"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/ll_user"
+		android:paddingLeft="16dp"
+		android:paddingRight="16dp"
+		android:gravity="left|center">
+
+		<com.ketren.kino.UyEditText
+			android:id="@+id/et_checkCode"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="4"
+			android:hint="تەستىق كودى"
+			android:textSize="12sp"
+			android:layout_marginRight="12dp"/>
+
+		<com.ketren.kino.UyTextView
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:text="تەستىق كودى:"
+			android:textColor="#000000"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

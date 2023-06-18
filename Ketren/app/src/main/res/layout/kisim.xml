@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.dl7.player.media.IjkPlayerView
+                    android:id="@+id/player_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="225dp"/>
+
+				<ScrollView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:focusable="true"
+					android:focusableInTouchMode="true">
+
+
+					<LinearLayout
+						android:orientation="vertical"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+				<ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:background="@drawable/image_5"
+                    android:id="@+id/ilan"
+                    android:layout_margin="2dp"/>
+
+
+
+                <HorizontalScrollView
+                    android:id="@+id/hsv_hos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fadingEdge="horizontal"
+                    android:scrollbars="none">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rg"
+                        android:orientation="horizontal"
+                        android:padding="3dp"/>
+
+                </HorizontalScrollView>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/zx1"
+                    android:layout_gravity="top|center"
+                    android:layout_margin="3dp">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.ketren.kino.UyTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="Text"
+                            android:textSize="13sp"
+                            android:textColor="#FF000000"
+                            android:id="@+id/jieshao"/>
+
+                    </ScrollView>
+
+                </LinearLayout>
+                <ImageButton
+                    android:layout_width="80px"
+                    android:layout_height="80px"
+                    android:background="@drawable/share"
+                    android:layout_gravity="right"
+                    android:layout_margin="5dp"
+                    android:onClick="share"/>
+
+                <com.ketren.kino.UyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="بۇلارنىمۇ ياقتۇرۇپ قالىسىز"
+                    android:gravity="center"
+                    android:textColor="#FF000000"
+                    android:textSize="10sp"
+                    android:layout_margin="5dp"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_margin="3dp"
+							android:layout_marginTop="10dp"
+							android:layout_marginBottom="10dp"
+							android:gravity="center">
+
+							<com.ketren.kino.UyButton
+								android:layout_width="wrap_content"
+								android:layout_height="90px"
+								android:text="يوللاش"
+								android:background="@drawable/qambar"
+								android:textColor="#FFFFFFFF"
+								android:textSize="10sp"
+								android:onClick="send"/>
+
+							<com.ketren.kino.UyEditText
+								android:layout_width="match_parent"
+								android:ems="7"
+								android:layout_height="wrap_content"
+								android:hint="ئ‍ىنكاس مەزمۇنى…"
+								android:textSize="10sp"
+								android:layout_margin="5dp"
+								android:id="@+id/inkas"/>
+
+						</LinearLayout>
+						<android.support.v7.widget.RecyclerView
+							android:id="@+id/inkas_list"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"/>
+					
+
+						
+            </LinearLayout>
+			
+				
+					
+			
+			</ScrollView>
+				
+				
+			</LinearLayout>
+</LinearLayout>
+

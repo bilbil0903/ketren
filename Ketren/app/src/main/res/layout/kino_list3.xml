@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:id="@+id/linearl"
+	android:clickable="true"
+	android:background="@drawable/linear_tag">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="3dp"
+		android:orientation="horizontal">
+
+		<ImageView
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:id="@+id/image"
+			android:paddingTop="3dip"
+			android:layout_width="100dp"
+			android:layout_height="120dp"
+			android:scaleType="centerCrop"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="3dp"
+			android:orientation="vertical">
+
+			<com.ketren.kino.UyTextView
+				android:textSize="20sp"
+				android:id="@+id/text"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textColor="#000000"
+				android:gravity="center|right"
+				android:text="Nami"
+				android:layout_marginLeft="5dp"/>
+
+			<com.ketren.kino.UyTextView
+				android:textSize="10sp"
+				android:id="@+id/wakit"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textColor="#000000"
+				android:gravity="center|right"
+				android:text="Nami"
+				android:layout_marginLeft="5dp"
+				android:layout_marginTop="10dp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+
